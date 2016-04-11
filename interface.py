@@ -660,7 +660,7 @@ def display_record(entries):
   print "\n".join([str(entry) for entry in entries]) + "\n"
 
 def main():
-  NUM_TO_SHOW = 40
+  NUM_TO_SHOW = 99999999
   #this should only happen on windows
   if os.name == 'nt':
     os.system("mode con cols=190 lines=60")
